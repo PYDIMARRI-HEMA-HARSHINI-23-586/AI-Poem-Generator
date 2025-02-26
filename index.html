@@ -3,51 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Indian Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Indian Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the Indian poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Your love is a gentle breeze,
-        <br />
-        That sets my heart at ease.
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic.."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Your love is a gentle breeze,
+          <br />
+          That sets my heart at ease.
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a
-        href="https://github.com/PYDIMARRI-HEMA-HARSHINI-23-586"
-        target="_blank"
-        >Hema💖</a
-      >
-      and is
-      <a
-        href="https://github.com/PYDIMARRI-HEMA-HARSHINI-23-586/AI-Poem-Generator"
-        target="_blank"
-      >
-        open-sourced on GitHub</a
-      >
-      and is
-      <a href="https://ai-indian-poem-generator.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >.
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a
+          href="https://github.com/PYDIMARRI-HEMA-HARSHINI-23-586"
+          target="_blank"
+          >Hema💖</a
+        >
+        and is
+        <a
+          href="https://github.com/PYDIMARRI-HEMA-HARSHINI-23-586/AI-Poem-Generator"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is
+        <a href="https://ai-indian-poem-generator.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
 
     <script src="index.js"></script>
   </body>
